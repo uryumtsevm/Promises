@@ -28,7 +28,7 @@ async function myTraining() {
     console.log("Начинаем отжимания");
     await wringOut(10);
     console.log("Отжался 10 раз");
-    await squattingTime(20);
+    await squatting(20);
     console.log("Присел 20 раз");
     return true;
   } catch (err) {
